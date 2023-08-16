@@ -38,7 +38,7 @@ public class Nykaa1 {
 		}
 		
 	public static void logIn() throws Throwable {
-		System.out.println(login);
+		
 			WebElement signinbtn = driver.findElement(By.xpath("//button[text()='Sign in']"));
 			signinbtn.click();
 			
